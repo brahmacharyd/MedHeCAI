@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedHeCAI.Application.Modals", "MedHeCAI.Application.Modals\MedHeCAI.Application.Modals.csproj", "{7024CEB8-B246-4E41-AB5B-AFD633B4EF0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedHeCAI.Application.Models", "MedHeCAI.Application.Models\MedHeCAI.Application.Models.csproj", "{AEF49A08-7463-4A87-98DD-98908812C5FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedHeCAI.Application.WebAPI", "MedHeCAI.Application.WebAPI\MedHeCAI.Application.WebAPI.csproj", "{7E0EE270-7ACD-4DB3-8C76-214DB333558C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7024CEB8-B246-4E41-AB5B-AFD633B4EF0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7024CEB8-B246-4E41-AB5B-AFD633B4EF0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7024CEB8-B246-4E41-AB5B-AFD633B4EF0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7024CEB8-B246-4E41-AB5B-AFD633B4EF0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF49A08-7463-4A87-98DD-98908812C5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF49A08-7463-4A87-98DD-98908812C5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF49A08-7463-4A87-98DD-98908812C5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF49A08-7463-4A87-98DD-98908812C5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0EE270-7ACD-4DB3-8C76-214DB333558C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0EE270-7ACD-4DB3-8C76-214DB333558C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0EE270-7ACD-4DB3-8C76-214DB333558C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0EE270-7ACD-4DB3-8C76-214DB333558C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {FE04B881-C356-4BE3-B36D-3BAD2792606E}
+		SolutionGuid = {DB45967F-E440-4D37-8C74-E10A0F1B17C2}
 	EndGlobalSection
 EndGlobal

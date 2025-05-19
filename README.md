@@ -1,2 +1,1 @@
-# MedHeCAI
-Health 
+# MedHeCAI.Application

@@ -1,26 +1,30 @@
-﻿using System;
+﻿namespace MedHeCAI.Application.Models
+{
+    using System;
 
-using System.Collections.Generic;
+    using System.Collections.Generic;
 
-using System.ComponentModel.DataAnnotations;
+    using System.ComponentModel.DataAnnotations;
 
-using System.ComponentModel.DataAnnotations.Schema;
+    using System.ComponentModel.DataAnnotations.Schema;
 
-
-namespace MedHeCAI.Application.Modals
-{   
 
     [Table("MedicalStores")]
 
     public class MedicalStore
+
     {
+
         [Key]
+
         public int StoreId { get; set; }
 
         [Required, MaxLength(100)]
+
         public string StoreName { get; set; }
 
         [MaxLength(100)]
+
         public string OwnerName { get; set; }
 
         [MaxLength(250)]
@@ -57,20 +61,17 @@ namespace MedHeCAI.Application.Modals
 
         public double Rating { get; set; }
 
-        public bool IsActive { get; set; }
-
-        public bool IsDeleted { get; set; }
-
         public DateTime CreatedAt { get; set; }
 
         public DateTime UpdatedAt { get; set; }
 
+        public string CreatedBy { get; set; }
 
+        public string UpdatedBy { get; set; }
 
-        // Navigation property 
+        public bool IsActive { get; set; }
 
-        public virtual ICollection<VisitHistory> VisitHistory { get; set; }
-
+        public bool IsDeleted { get; set; }
     }
 
 }
