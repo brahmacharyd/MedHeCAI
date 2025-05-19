@@ -134,3 +134,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/MedHeCAI.Application/.vs/MedHeCAI.Application/FileContentIndex
+/MedHeCAI.Application/.vs/MedHeCAI.Application/v17
+/MedHeCAI.Application/MedHeCAI.Application.Modals/obj
+/MedHeCAI.Application.Modals/obj/Debug/net8.0
+/MedHeCAI.Application.Modals/obj/MedHeCAI.Application.Modals.csproj.nuget.dgspec.json
+/MedHeCAI.Application.Modals/obj/MedHeCAI.Application.Modals.csproj.nuget.g.props
+/MedHeCAI.Application.Modals/obj/MedHeCAI.Application.Modals.csproj.nuget.g.targets
+/MedHeCAI.Application.Modals/obj/project.assets.json
+/MedHeCAI.Application.Modals/obj/project.nuget.cache
