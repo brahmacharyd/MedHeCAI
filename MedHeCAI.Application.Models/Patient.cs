@@ -12,11 +12,13 @@ namespace MedHeCAI.Application.Models
 
     public class Patient
     {
-        // 🆔 Identification
         [Key]
-        public int PatientId { get; set; }  // Primary Key
+        public int PatientId { get; set; }
 
-        // 👤 Personal Details
+        [ForeignKey("User")]
+        public int UserId { get; set; }
+        public virtual User User { get; set; }
+
         [Required, MaxLength(50)]
         public string FirstName { get; set; }
 
@@ -30,7 +32,6 @@ namespace MedHeCAI.Application.Models
         [Required, MaxLength(20)]
         public string Gender { get; set; }
 
-        // 📞 Contact Information
         [Phone]
         [MaxLength(20)]
         public string PhoneNumber { get; set; }
@@ -46,7 +47,6 @@ namespace MedHeCAI.Application.Models
         [MaxLength(200)]
         public string Address { get; set; }
 
-        // 🏥 Medical Information
         [MaxLength(5)]
         public string BloodGroup { get; set; }
 
@@ -56,7 +56,6 @@ namespace MedHeCAI.Application.Models
         [MaxLength(500)]
         public string ChronicDiseases { get; set; }
 
-        // 🧾 Administrative
         [MaxLength(100)]
         public string EmergencyContactName { get; set; }
 
